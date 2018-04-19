@@ -37,3 +37,15 @@
 - 应用界面元素定位
 - Hybrid应用自动化测试
 - 快速的生成测试用例
+
+# chapter2
+### 自动化测试环境
+- 开发工具包(JDK,Android SDK)
+- 开发环境(eclipse,ADT,Ant)
+- 运行环境(Device,AVD)
+
+### 资源获取及安装
+- Java的安装:http://www.oracle.com/technetwork/java/javase/downloads/index.html
+- Ant:http://ant.apache.org/bindownload.cgi 配置环境变量
+- Eclipse ADT Bundle:http://wear.techbrood.com/sdk/index.html
+- Android SDK更新镜像:腾讯镜像地址:android-mirror.bugly.qq.com 端口:8080  东软镜像地址:mirrors.neusoft.edu.cn 端口:80
