@@ -106,6 +106,7 @@ C:\Users\Administrator>adb uninstall cn.com.open.mooc
 
 启动Android Device Monitor:`monitor`<br>
 
+# chapter3
 ### Monkey工具
 - Monkey:是Android系统中自带的一个黑盒测试工具,一般通过随机触发界面事件,来确定应用是否会发生异常,多用于android应用的稳定性、压力测试。
 - adb shell monkey [options] <event-count>
