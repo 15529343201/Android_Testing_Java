@@ -206,6 +206,27 @@ monkeyServer.bat<br>
 >>> MonkeyRunner.sleep(4)
 >>> MonkeyRunner.waitForConnection()
 ```
+### MonkeyRunner模块
+- alert
+- waitForConnection
+- sleep
+- help
+
+### MonkeyDevice模块
+- installpackage
+- startActivity
+- press
+- touch
+- takesnapshot
+- getProperty
+
+http://wear.techbrood.com/tools/help/MonkeyDevice.html<br>
+![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter4/Image/5.PNG)<br>
+
+
+
+
+
 
 
 
