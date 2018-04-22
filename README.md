@@ -192,6 +192,22 @@ monkeyServer.bat<br>
 - MonkeyImage
 - 官方文档:https://developer.android.com/studio/test/monkeyrunner/index.html
 
+启动MonkeyRunner:<br>
+```
+>>> from com.android.monkeyrunner import MonkeyRunner,MonkeyDevice,MonkeyImage
+>>> MonkeyRunner.help("text")
+>>> content=MonkeyRunner.help("html")
+>>> f=open("helo.html","w")
+>>> f.write(content)
+>>> f.close()
+>>> MonkeyRunner.alert('MonkeyRunner alert','imooc','OK')
+>>> MonkeyRunner.choice('MonkeyRunner choice',['test1','test2'],'imooc')
+>>> MonkeyRunner.input('MonkeyRunner input','init str','imooc','OK','Cancel')
+>>> MonkeyRunner.sleep(4)
+>>> MonkeyRunner.waitForConnection()
+```
+
+
 
 
 
