@@ -104,6 +104,6 @@ C:\Users\Administrator>adb uninstall cn.com.open.mooc
 - Logcat
 - uiautomatorViewer
 
-
+启动Android Device Monitor:`monitor`<br>
 
 
