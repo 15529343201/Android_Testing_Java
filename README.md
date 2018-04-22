@@ -97,6 +97,12 @@ C:\Users\Administrator>adb uninstall cn.com.open.mooc
 删除创建的模拟器:`android delete avd -n avdtest`<br>
 创建应用项目:`android create project -n myandroid -p c:\myandroid -k com.mooc.myandroid -a MyandroidActivity -t 2`<br>
 创建测试项目:`android create test-project -m c:\myandroid -p c:\myandroid\test -n myandroidtest`<br>
+### Monitor工具
+- Monitor工具:集成了在Android开发、自动化测试过程中对应用调测非常重要的常用功能。
+- Devices
+- DDMS
+- Logcat
+- uiautomatorViewer
 
 
 
