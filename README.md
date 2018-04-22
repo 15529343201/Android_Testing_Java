@@ -232,6 +232,9 @@ http://www.android-doc.com/tools/help/MonkeyImage.html<br>
 MonkeyImage博客:https://blog.csdn.net/QingLang0213/article/details/48317453<br>
 ![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter4/Image/7.PNG)<br>
 ![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter4/Image/8.PNG)<br>
+### MonkeyRunner录制回放工具
+- Monkey_recorder
+- Monkey_playback
 
 
 
