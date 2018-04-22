@@ -238,6 +238,17 @@ MonkeyImage博客:https://blog.csdn.net/QingLang0213/article/details/48317453<br
 
 ![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter4/Image/9.PNG)<br>
 `monkey_record.py` `monkey_playback.py` `recorder.mr`<br>
+### MonkeyRunner进阶
+- EasyMonkeyDevice
+- By
+
+`By.java` `EasyMonkeyDevice.java` `README`<br>
+启动view server<br>
+![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter4/Image/10.PNG)<br>
+启动hierarchyviewer:D:\android-sdk\tools<br>
+![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter4/Image/11.PNG)<br>
+![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter4/Image/12.PNG)<br>
+![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter4/Image/13.PNG)<br>
 
 
 
