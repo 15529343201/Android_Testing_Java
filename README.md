@@ -111,4 +111,23 @@ C:\Users\Administrator>adb uninstall cn.com.open.mooc
 - adb shell monkey [options] <event-count>
 - 官方文档:https://developer.android.com/studio/test/monkey.html
 
+`adb shell monkey --help`<br>
+```
+C:\Users\Administrator>adb shell
+root@vbox86p:/ # cd /data/data
+root@vbox86p:/data/data # ls
+root@vbox86p:/data/data # exit
+C:\Users\Administrator>adb shell monkey -p com.android.calculator2 1000
+C:\Users\Administrator>adb shell monkey -p com.android.calculator2 -v -v 100
+adb shell monkey -p com.baidu.searchbox -s 1471938271846 -v -v 1000
+```
+
+
+
+
+
+
+
+
+
 
