@@ -66,3 +66,6 @@
 - `adb start-server/kill-server`
 - `adb install/uninstall`
 - `adb shell`
+
+![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter2/Image/2.PNG)<br>
+![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter2/Image/3.PNG)<br>
