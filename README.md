@@ -186,6 +186,18 @@ monkeyServer.bat<br>
 ### MonkeyRunner
 - MonkeyRunner:Android SDK中自带的一个黑盒测试工具,在PC端通过Android API控制设备的运行,支持Python脚本,可以实现Monkey无法实现的一些逻辑控制
 
+### MonkeyRunner API
+- MonkeyRunner
+- MonkeyDevice
+- MonkeyImage
+- 官方文档:https://developer.android.com/studio/test/monkeyrunner/index.html
+
+
+
+
+
+
+
 
 
 
