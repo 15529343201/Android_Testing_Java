@@ -39,6 +39,11 @@
 - 快速的生成测试用例
 
 # chapter2
+### Android自动化测试
+- 操作系统:Windows,Linux,Mac
+- 系统版本:Windows XP以上
+- 内存大小:不低于4G
+- 测试手机:任意Android系统手机
 ### 自动化测试环境
 - 开发工具包(JDK,Android SDK)
 - 开发环境(eclipse,ADT,Ant)
@@ -49,3 +54,8 @@
 - Ant:http://ant.apache.org/bindownload.cgi 配置环境变量
 - Eclipse ADT Bundle:http://wear.techbrood.com/sdk/index.html
 - Android SDK更新镜像:腾讯镜像地址:android-mirror.bugly.qq.com 端口:8080  东软镜像地址:mirrors.neusoft.edu.cn 端口:80
+
+### ADB工具
+- ADB-Android Debug Bridge。电脑和android设备之间的连接、调试通道。
+
+![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter2/Image/1.PNG)
