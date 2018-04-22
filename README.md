@@ -249,8 +249,12 @@ MonkeyImage博客:https://blog.csdn.net/QingLang0213/article/details/48317453<br
 ![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter4/Image/11.PNG)<br>
 ![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter4/Image/12.PNG)<br>
 ![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter4/Image/13.PNG)<br>
+### MonkeyRunner实战
+- Case1:使用press、touch方法分别触发计算器按键,并用MonkeyImage来比较两次计算结果是否一致
+- Case2:用EasyMonkeyDevice来获取按键并触发,再用HierarchyViewer获取对象属性校验结果正确性
 
-
+`calculator_mr.py`<br>
+![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter4/Image/14.PNG)<br>
 
 
 
