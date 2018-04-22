@@ -220,9 +220,16 @@ monkeyServer.bat<br>
 - takesnapshot
 - getProperty
 
-http://wear.techbrood.com/tools/help/MonkeyDevice.html<br>
+http://www.android-doc.com/tools/help/MonkeyImage.html<br>
 ![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter4/Image/5.PNG)<br>
+![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter4/Image/6.PNG)<br>
+### MonkeyImage模块
+- ConvertoBytes
+- getSubImage
+- sameAs
+- writeToFile
 
+MonkeyImage博客:https://blog.csdn.net/QingLang0213/article/details/48317453<br>
 
 
 
