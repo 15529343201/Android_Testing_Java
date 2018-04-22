@@ -58,4 +58,11 @@
 ### ADB工具
 - ADB-Android Debug Bridge。电脑和android设备之间的连接、调试通道。
 
-![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter2/Image/1.PNG)
+![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter2/Image/1.PNG)<br>
+### ADB常用命令
+- `adb devices`
+- `adb push/pull`
+- `adb forward`
+- `adb start-server/kill-server`
+- `adb install/uninstall`
+- `adb shell`
