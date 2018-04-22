@@ -93,3 +93,4 @@ C:\Users\Administrator>adb uninstall cn.com.open.mooc
 打开AVD Manager:`android avd`<br>
 列出模拟器清单:`android list avd`<br>
 列出当前模拟器平台版本:`android list target`<br>
+新建avdtest模拟器,平台版本id为2,sd卡100M:`android create avd -n avdtest -t 2 -c 100M`<br>
