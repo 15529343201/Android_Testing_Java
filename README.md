@@ -80,3 +80,16 @@ root@vbox86p:/ # cd /data/data/
 root@vbox86p:/data/data # ls
 C:\Users\Administrator>adb uninstall cn.com.open.mooc
 ```
+
+### Android命令
+- Android命令可以用于查看当前android开发环境中相关的系统信息以及操作
+- Android sdk
+- Android avd
+- Android list
+- Android create project
+
+查看帮助:`android -h`<br>
+打开SDK Manager:`android sdk`<br>
+打开AVD Manager:`android avd`<br>
+列出模拟器清单:`android list avd`<br>
+列出当前模拟器平台版本:`android list target`<br>
