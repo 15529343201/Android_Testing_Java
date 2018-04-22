@@ -133,6 +133,7 @@ adb shell monkey -p com.baidu.searchbox -s 1471938271846 -v -v 1000
 - `RotateScreen`
 - `Tap`
 
+MonkeySourceScript.java<br>
 ```
 # Start of Script  
 type= user  
@@ -163,8 +164,24 @@ UserWait(500)
 ```
 `C:\Users\Administrator\git\Android_Testing_Java>adb push monkey.script /data/temp/monkey.script`<br>
 `C:\Users\Administrator\git\Android_Testing_Java>adb shell monkey -f /data/temp/monkey.script 1`<br>
+### Monkey Server
+- 启动Monkey Server:`adb shell monkey --port 1080 &`
+- 连接Monkey Server:`adb forward tcp:1080 tcp:1080` `telent 127.0.0.1 1080`
 
+### Monkey Server-主要命令
+- `touch [down|up|move][x][y]`
+- `press [keycode]`
+- `sleep`
+- `getvar`
+- `type`
 
+README_NETWORK.txt<br>
+### Monkey Server命令的脚本化
+- 关键脚本:`set sh=WScript.CreateObject("WScript.Shell")` `WScript.Sleep 1000` `sh.SendKeys "open 127.0.0.1 1080{ENTER}"`
+- 启动命令:`cscript //nologo monkeyServerRun.vbs`
+
+monkeyServerRun.vbs<br>
+monkeyServer.bat<br>
 
 
 
