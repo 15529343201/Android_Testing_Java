@@ -236,6 +236,9 @@ MonkeyImage博客:https://blog.csdn.net/QingLang0213/article/details/48317453<br
 - Monkey_recorder
 - Monkey_playback
 
+![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter4/Image/9.PNG)<br>
+`monkey_record.py` `monkey_playback.py` `recorder.mr`<br>
+
 
 
 
