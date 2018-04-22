@@ -69,3 +69,6 @@
 
 ![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter2/Image/2.PNG)<br>
 ![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter2/Image/3.PNG)<br>
+- `adb forward tcp:1080 tcp:1080` 把电脑端的1080端口转发到设备端的1080端口
+- ·adb kill-server` `adb start-server`
+![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter2/Image/4.PNG)<br>
