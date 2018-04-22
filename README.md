@@ -121,6 +121,48 @@ C:\Users\Administrator>adb shell monkey -p com.android.calculator2 1000
 C:\Users\Administrator>adb shell monkey -p com.android.calculator2 -v -v 100
 adb shell monkey -p com.baidu.searchbox -s 1471938271846 -v -v 1000
 ```
+### Monkey脚本
+- `adb shell monkey -f <script> 1`
+- 参考源码:https://android.googlesource.com/platform/development/+/master/cmds/monkey/src/com/android/commands/monkey/MonkeySourceScript.java
+
+### Monkey脚本 主要命令
+- `DispatchPointer`
+- `DispatchPress [keycode]`
+- `LaunchActivity`
+- `UserWait`
+- `RotateScreen`
+- `Tap`
+
+```
+# Start of Script  
+type= user  
+count= 1  
+speed= 1.0  
+start data >>
+LaunchActivity(com.android.calculator2, com.android.calculator2.Calculator)
+
+# touch 9
+DispatchPointer(0,0,0,400,500,0,0,0,0,0,0,0)
+DispatchPointer(0,0,1,400,500,0,0,0,0,0,0,0)
+UserWait(1500)
+# touch 6
+DispatchPress(KEYCODE_6)
+UserWait(1500)
+# touch +
+DispatchPress(KEYCODE_PLUS)
+UserWait(1500)
+# touch 7
+Tap(100,500,50)
+UserWait(1500)
+# touch =
+DispatchPress(KEYCODE_EQUALS)
+UserWait(1500)
+
+RotateScreen(2,1)
+UserWait(500)
+```
+`C:\Users\Administrator\git\Android_Testing_Java>adb push monkey.script /data/temp/monkey.script`<br>
+`C:\Users\Administrator\git\Android_Testing_Java>adb shell monkey -f /data/temp/monkey.script 1`<br>
 
 
 
