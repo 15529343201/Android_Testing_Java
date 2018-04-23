@@ -183,6 +183,97 @@ README_NETWORK.txt<br>
 
 monkeyServerRun.vbs<br>
 monkeyServer.bat<br>
+# chapter4
+### MonkeyRunner
+- MonkeyRunner:Android SDK中自带的一个黑盒测试工具,在PC端通过Android API控制设备的运行,支持Python脚本,可以实现Monkey无法实现的一些逻辑控制
+
+### MonkeyRunner API
+- MonkeyRunner
+- MonkeyDevice
+- MonkeyImage
+- 官方文档:https://developer.android.com/studio/test/monkeyrunner/index.html
+
+启动MonkeyRunner:<br>
+```
+>>> from com.android.monkeyrunner import MonkeyRunner,MonkeyDevice,MonkeyImage
+>>> MonkeyRunner.help("text")
+>>> content=MonkeyRunner.help("html")
+>>> f=open("helo.html","w")
+>>> f.write(content)
+>>> f.close()
+>>> MonkeyRunner.alert('MonkeyRunner alert','imooc','OK')
+>>> MonkeyRunner.choice('MonkeyRunner choice',['test1','test2'],'imooc')
+>>> MonkeyRunner.input('MonkeyRunner input','init str','imooc','OK','Cancel')
+>>> MonkeyRunner.sleep(4)
+>>> MonkeyRunner.waitForConnection()
+```
+### MonkeyRunner模块
+- alert
+- waitForConnection
+- sleep
+- help
+
+### MonkeyDevice模块
+- installpackage
+- startActivity
+- press
+- touch
+- takesnapshot
+- getProperty
+
+http://www.android-doc.com/tools/help/MonkeyImage.html<br>
+![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter4/Image/5.PNG)<br>
+![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter4/Image/6.PNG)<br>
+### MonkeyImage模块
+- ConvertoBytes
+- getSubImage
+- sameAs
+- writeToFile
+
+MonkeyImage博客:https://blog.csdn.net/QingLang0213/article/details/48317453<br>
+![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter4/Image/7.PNG)<br>
+![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter4/Image/8.PNG)<br>
+### MonkeyRunner录制回放工具
+- Monkey_recorder
+- Monkey_playback
+
+![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter4/Image/9.PNG)<br>
+`monkey_record.py` `monkey_playback.py` `recorder.mr`<br>
+### MonkeyRunner进阶
+- EasyMonkeyDevice
+- By
+
+`By.java` `EasyMonkeyDevice.java` `README`<br>
+启动view server<br>
+![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter4/Image/10.PNG)<br>
+启动hierarchyviewer:D:\android-sdk\tools<br>
+![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter4/Image/11.PNG)<br>
+![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter4/Image/12.PNG)<br>
+![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter4/Image/13.PNG)<br>
+### MonkeyRunner实战
+- Case1:使用press、touch方法分别触发计算器按键,并用MonkeyImage来比较两次计算结果是否一致
+- Case2:用EasyMonkeyDevice来获取按键并触发,再用HierarchyViewer获取对象属性校验结果正确性
+
+`calculator_mr.py`<br>
+![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter4/Image/14.PNG)<br>
+### 思考题
+- Question1:MonkeyRunner用例实现脚本中,有一处明显的错误,请看看那个地方实现得有问题?
+- Question2:Case1使用subImage对象来进行图像对比时,需要依据坐标范围来指定比较区域,如何不依赖坐标实现图像对比?
+
+### 思考题解答
+- `calculator_mr1.py`
+
+![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter4/Image/15.PNG)<br>
+
+
+
+
+
+
+
+
+
+
 
 
 
