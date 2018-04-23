@@ -255,6 +255,14 @@ MonkeyImage博客:https://blog.csdn.net/QingLang0213/article/details/48317453<br
 
 `calculator_mr.py`<br>
 ![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter4/Image/14.PNG)<br>
+### 思考题
+- Question1:MonkeyRunner用例实现脚本中,有一处明显的错误,请看看那个地方实现得有问题?
+- Question2:Case1使用subImage对象来进行图像对比时,需要依据坐标范围来指定比较区域,如何不依赖坐标实现图像对比?
+
+### 思考题解答
+- `calculator_mr1.py`
+
+![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter4/Image/15.PNG)<br>
 
 
 
