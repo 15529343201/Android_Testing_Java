@@ -264,6 +264,24 @@ MonkeyImage博客:https://blog.csdn.net/QingLang0213/article/details/48317453<br
 - `calculator_mr1.py`
 
 ![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter4/Image/15.PNG)<br>
+# chapter5
+### Android单元测试类
+![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter5/Image/16.PNG)<br>
+### Instrumentation框架
+- 官方解释:Base class for implementing application instrumentation code.When running with instrumentation turned on,this class will be instantiated for you `before any of the application code`,allowing you to `monitor all of the interaction` the system has with the application.An Instrumentation implementation is described to the system `through an AndroidManifest.xml's tag`.
+
+![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter5/Image/17.PNG)<br>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
