@@ -453,6 +453,14 @@ public static void main(String[] args) {
 //		device.openNotification();
 		device.openQuickSettings();
 ```
+- UiSelector
+
+1.`Text`<br>
+2.`description`<br>
+3.`class`<br>
+4.`package`<br>
+5.`index`<br>
+6.`其他属性`<br>
 
 
 
