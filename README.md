@@ -408,6 +408,29 @@ public static void main(String[] args) {
 }
 ```
 `Run AS`-->`Java Application`<br>
+### UiAutomator APIs
+- UiDevice
+- UiSelecter
+- UiObject
+- UiCollection
+- UiScrollable
+
+```Java
+//		device.pressHome();
+//		device.waitForIdle(2000);
+//		device.pressMenu();
+//		device.waitForIdle(2000);
+//		device.pressRecentApps();
+//		
+//		device.pressKeyCode(KeyEvent.KEYCODE_I);
+//		device.pressKeyCode(KeyEvent.KEYCODE_M);
+//		device.pressKeyCode(KeyEvent.KEYCODE_O);
+//		device.pressKeyCode(KeyEvent.KEYCODE_O);
+//		device.pressKeyCode(KeyEvent.KEYCODE_C);
+//		
+//		device.takeScreenshot(new File("/sdcard/a.png"));
+```
+![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter6/Image/29.PNG)<br>
 
 
 
