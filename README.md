@@ -308,6 +308,38 @@ Eclipse的 Run as 不出现Android Application的问题 http://blog.sina.com.cn/
 ![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter5/Image/21.PNG)<br>
 `jarsigner -keystore debug.keystore -storepass android -keypass android -sigalg MD5 withRSA -digestalg SHA1 APIFile androiddebugkey`<br>
 创建一个测试的工程ClickFunBlack,选择This project,引入Junit和robotium jar包<br>
+拷贝build-tools下的aapt到tools下<br>
+![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter5/Image/22.PNG)<br>
+### Robotium主要API
+http://recorder.robotium.com/javadoc/<br>
+- 点击类操作
+
+1.`clickOnText(String text)`<br>
+2.`clickOnButton(String text)`<br>
+3.`clickOnView(View view)`<br>
+4.`clickOnScreen(float x,float y)`<br>
+- 输出类操作
+
+1.`enterText(EditText editText,String text)`<br>
+2.`ClearText(EditText editText)`<br>
+- Get相关操作
+
+1.`getCurrentActivity()`<br>
+2.`getText(int index)`<br>
+3.`getButton(int index)`<br>
+4.`getview(String id)`<br>
+- Search相关操作
+
+1.`searchButton`<br>
+2.`searchText`<br>
+3.`searchEditText`<br>
+- 判断相关操作
+
+1.`assertCurrentActivity`<br>
+2.`assertMemoryNotLow`<br>
+3.`isCheckBoxChecked`<br>
+4.`isTextChecked`<br>
+
 
 
 
