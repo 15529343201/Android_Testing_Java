@@ -278,6 +278,13 @@ Eclipse中离线安装ADT插件详细教程及下载链接 https://blog.csdn.net
 Eclipse的 Run as 不出现Android Application的问题 http://blog.sina.com.cn/s/blog_77bf45a90101eol6.html<br>
 
 配置好环境运行`MyFirstTestActivity工程`<br>
+创建一个测试的工程ClickFunTest:`New-->Android Test Project-->ClickFunTest`然后可以在eclipse中运行<br>
+命令行测试运行:<br>
+1.进入到待测试工程的目录<br>
+2.`android create test-project -m .. -p tests`<br>
+3.`adb shell am instrument -e class com.example.android.testingfun.lesson3.ClickFunActivityTest -w com.example.android.testingfun.tests/android.test.InstrumentationTestRunner`<br>
+![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter5/Image/18.PNG)<br>
+
 
 
 
