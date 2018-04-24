@@ -383,6 +383,14 @@ http://recorder.robotium.com/javadoc/<br>
 - 执行测试:`adb shell uiautomator runtest`
 
 创建一个Java工程:`TestUi`<br>
+```Java
+public class TestUi extends UiAutomatorTestCase {
+
+	public void testHome() {
+		UiDevice.getInstance().pressHome();
+	}
+}
+```
 查看平台对应版本的id:`android list target`<br>
 ![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter5/Image/27.PNG)<br>
 ![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter5/Image/28.PNG)<br>
