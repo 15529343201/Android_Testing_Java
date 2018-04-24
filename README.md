@@ -340,6 +340,17 @@ http://recorder.robotium.com/javadoc/<br>
 3.`isCheckBoxChecked`<br>
 4.`isTextChecked`<br>
 
+### Robotium自动化实例
+1.启动慕课网应用<br>
+2.进入主界面<br>
+3.搜索并打开课程<br>
+4.选择指定章节<br>
+
+下载慕课网app(https://www.imooc.com/mobile/app),mukewang.apk,解压删除其中的META-INF,使用命令行重签名<br>
+![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter5/Image/23.PNG)<br>
+创建一个测试的工程imoocAPK<br>
+
+
 
 
 
