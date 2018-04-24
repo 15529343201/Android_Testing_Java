@@ -392,8 +392,8 @@ public class TestUi extends UiAutomatorTestCase {
 }
 ```
 查看平台对应版本的id:`android list target`<br>
-![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter5/Image/27.PNG)<br>
-![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter5/Image/28.PNG)<br>
+![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter6/Image/27.PNG)<br>
+![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter6/Image/28.PNG)<br>
 ### UiAutomator脚本调试工具
 - UiAutomatorHelper:https://github.com/fan2597/UiAutomatorHelper
 
