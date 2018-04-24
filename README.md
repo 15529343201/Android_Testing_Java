@@ -468,7 +468,57 @@ public void testSelect() throws UiObjectNotFoundException{
 	browserBtn.click();
 }
 ```
+- UiObject
 
+1.`click`<br>
+2.`drag`<br>
+3.`swipe`<br>
+4.`setText`<br>
+5.`属性获取`<br>
+6.`是否存在`<br>
+```Java
+public void testObject() throws UiObjectNotFoundException{
+	UiObject obj=new UiObject(new UiSelector().resourceId("com.android.dialer:id/emptyListViewImage"));
+	obj.swipeLeft(20);
+	UiObject obj2 = new UiObject(new UiSelector().resourceId("com.android.dialer:id/emptyListViewImage"));
+	if(obj2.exists()){
+		obj2.swipeRight(20);
+	}
+		
+	UiObject obj3=new UiObject(new UiSelector().resourceId("com.android.dialer:id/search_box_start_search"));
+	obj3.clickAndWaitForNewWindow();
+	new UiObject(new UiSelector().resourceId("com.android.dialer:id/search_view")).setText("10086");
+		
+	String str = new UiObject(new UiSelector().resourceId("com.android.dialer:id/cliv_name_textview")).getClassName();
+	System.out.println("classname : ------"+str);
+}
+```
+- UiCollection
+
+是对象的集合。可从集合中进一步查询需要的对象。<br>
+```Java
+public void testCollection() throws UiObjectNotFoundException{
+	UiCollection viewGroup = new UiCollection(new UiSelector().resourceId("com.android.calculator2:id/pad_numeric"));
+	UiObject btn9=viewGroup.getChildByText(new UiSelector().className("android.widget.Button"), "9");
+	UiObject btn8=viewGroup.getChildByText(new UiSelector().className("android.widget.Button"), "8");
+	UiObject btn7=viewGroup.getChildByText(new UiSelector().className("android.widget.Button"), "7");
+	UiObject btnEqu=viewGroup.getChildByText(new UiSelector().className("android.widget.Button"), "=");
+		
+	UiCollection viewGroup2 = new UiCollection(new UiSelector().resourceId("com.android.calculator2:id/pad_operator"));
+	UiObject btnTime=viewGroup2.getChildByDescription(new UiSelector().className("android.widget.Button"), "times");
+		
+	btn7.click();
+	btnTime.click();
+	btn8.click();
+	btn9.click();
+	btnEqu.click();
+		
+	int cnt1= viewGroup.getChildCount();
+	System.out.println("numpad Count:------"+cnt1);
+	int cnt2 = viewGroup2.getChildCount(new UiSelector().className("android.widget.Button"));
+	System.out.println("operator Count:-------"+cnt2);		
+}
+```
 
 
 
