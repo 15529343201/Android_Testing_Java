@@ -271,12 +271,12 @@ MonkeyImage博客:https://blog.csdn.net/QingLang0213/article/details/48317453<br
 - 官方解释:Base class for implementing application instrumentation code.When running with instrumentation turned on,this class will be instantiated for you `before any of the application code`,allowing you to `monitor all of the interaction` the system has with the application.An Instrumentation implementation is described to the system `through an AndroidManifest.xml's tag`.
 
 ![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter5/Image/17.PNG)<br>
-
-
-
-
-
-
+Eclipse中搭建Android开发环境 https://www.cnblogs.com/694579350liuq/p/7444666.html<br>
+Eclipse中离线安装ADT插件详细教程及下载链接 https://blog.csdn.net/menghuanbeike/article/details/69945871<br>
+在Eclipse上创建Android模拟器 https://blog.csdn.net/u010670619/article/details/47110965<br>
+创建android模拟器 https://www.cnblogs.com/csulennon/p/4178404.html<br>
+Eclipse的 Run as 不出现Android Application的问题 http://blog.sina.com.cn/s/blog_77bf45a90101eol6.html<br>
+ 
 
 
 
