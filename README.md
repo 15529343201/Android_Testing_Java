@@ -285,6 +285,10 @@ Eclipse的 Run as 不出现Android Application的问题 http://blog.sina.com.cn/
 3.`adb shell am instrument -e class com.example.android.testingfun.lesson3.ClickFunActivityTest -w com.example.android.testingfun.tests/android.test.InstrumentationTestRunner`<br>
 ![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter5/Image/18.PNG)<br>
 
+### Robotium介绍
+- http://www.robotium.org
+- https://github.com/RobotiumTech/robotium
+
 
 
 
