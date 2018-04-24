@@ -307,6 +307,7 @@ Eclipse的 Run as 不出现Android Application的问题 http://blog.sina.com.cn/
 ![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter5/Image/20.PNG)<br>
 ![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter5/Image/21.PNG)<br>
 `jarsigner -keystore debug.keystore -storepass android -keypass android -sigalg MD5 withRSA -digestalg SHA1 APIFile androiddebugkey`<br>
+创建一个测试的工程ClickFunBlack,选择This project,引入Junit和robotium jar包<br>
 
 
 
