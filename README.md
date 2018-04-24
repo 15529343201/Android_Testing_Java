@@ -296,6 +296,17 @@ Eclipse的 Run as 不出现Android Application的问题 http://blog.sina.com.cn/
 创建一个测试的工程ClickFunWhite:Build Path引入robotium-solo-5.6.1.jar<br>
 命令行测试:<br>
 ![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter5/Image/19.PNG)<br>
+### Robotium黑盒测试
+- 应用重签名 `Re-sign.jar` http://www.troido.de/re-sign.jar
+
+直接点击:Re-sign,拖动MyFirstTestActivity.apk到其中,生成MyFirstTestActivity_debug.apk<br>
+新版本sdk中,如果报错,把build-tool中的zipalign.exe放入到tools中<br>
+- 命令行重签名
+
+解压MyFirstTestActivity.apk删除其中的META-INF<br>
+![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter5/Image/20.PNG)<br>
+![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter5/Image/21.PNG)<br>
+`jarsigner -keystore debug.keystore -storepass android -keypass android -sigalg MD5 withRSA -digestalg SHA1 APIFile androiddebugkey`<br>
 
 
 
