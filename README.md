@@ -431,7 +431,28 @@ public static void main(String[] args) {
 //		device.takeScreenshot(new File("/sdcard/a.png"));
 ```
 ![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter6/Image/29.PNG)<br>
-
+```Java
+//		device.click(700, 2200);
+//		
+//		if(device.isScreenOn()){
+//			device.sleep();
+//		}
+//		device.waitForIdle(2000);
+//		if(!device.isScreenOn()){
+//			device.wakeUp();
+//		}
+//		
+//		device.drag(900, 2200, 700, 1000, 50);		
+//		device.waitForIdle(5000);
+//		device.drag(700, 1000, 900, 2200, 50);
+//		
+//		device.swipe(1200, 1500, 200, 1500, 20);
+//		device.waitForIdle(5000);
+//		device.swipe(200, 1500, 1200, 1500, 20);
+//		
+//		device.openNotification();
+		device.openQuickSettings();
+```
 
 
 
