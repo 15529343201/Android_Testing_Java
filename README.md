@@ -276,7 +276,9 @@ Eclipse中离线安装ADT插件详细教程及下载链接 https://blog.csdn.net
 在Eclipse上创建Android模拟器 https://blog.csdn.net/u010670619/article/details/47110965<br>
 创建android模拟器 https://www.cnblogs.com/csulennon/p/4178404.html<br>
 Eclipse的 Run as 不出现Android Application的问题 http://blog.sina.com.cn/s/blog_77bf45a90101eol6.html<br>
- 
+
+配置号环境运行`MyFirstTestActivity工程`<br>
+
 
 
 
