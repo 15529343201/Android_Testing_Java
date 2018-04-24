@@ -289,6 +289,14 @@ Eclipse的 Run as 不出现Android Application的问题 http://blog.sina.com.cn/
 - http://www.robotium.org
 - https://github.com/RobotiumTech/robotium
 
+### Robotium白盒测试
+- 基于Instrumentation
+- robotium-solo-5.6.1.jar
+
+创建一个测试的工程ClickFunWhite:Build Path引入robotium-solo-5.6.1.jar<br>
+命令行测试:<br>
+![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter5/Image/19.PNG)<br>
+
 
 
 
