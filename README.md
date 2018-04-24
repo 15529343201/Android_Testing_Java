@@ -358,6 +358,42 @@ http://recorder.robotium.com/javadoc/<br>
 ![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter5/Image/26.PNG)<br>
 会生成mukewang_debug.apk<br>
 点击录制,最终会生成工程MCApplicationTest<br>
+# chapter6
+### UiAutomator简介
+- 随AndroidV4.1推出,官方推荐用于V4.3版本以上
+- 用于应用UI自动化测试,模拟操作
+- 优点
+
+1.API丰富,简单易懂<br>
+2.无Activity限制,支持跨应用<br>
+3.几乎所有的工人操作都能进行模拟<br>
+- 缺点
+
+1.权限较低,无法像Instrumentation一样获取应用的较高权限<br>
+2.有很多Android API不能使用<br>
+### 建立UiAutomator测试工程
+- 新建Java工程
+- 依赖包android.jar、uiautomator.jar
+- 继承UiAutomatorTestCase
+
+### 执行UiAutomator测试
+- 生成编译文件:`android create uitest-project`
+- 编译执行包:`ant build`
+- 上传执行包:`adb push`
+- 执行测试:`adb shell uiautomator runtest`
+
+创建一个Java工程:`TestUi`<br>
+查看平台对应版本的id:`android list target`<br>
+![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter5/Image/27.PNG)<br>
+![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter5/Image/28.PNG)<br>
+
+
+
+
+
+
+
+
 
 
 
