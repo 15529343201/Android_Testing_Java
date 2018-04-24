@@ -398,8 +398,16 @@ public class TestUi extends UiAutomatorTestCase {
 - UiAutomatorHelper:https://github.com/fan2597/UiAutomatorHelper
 
 下载UiAutomatorDebug源码,导入到eclipse,拷贝UiAutomatorHelper.java到TestUi工程下.<br>
-
-
+```Java
+public static void main(String[] args) {		
+	String jarName="FirstUi";
+	String testClass="com.imooc.UiTest.TestUi";
+	String testName="testScrollable";
+	String androidId="3";
+	new UiAutomatorHelper(jarName, testClass, testName, androidId);
+}
+```
+`Run AS`-->`Java Application`<br>
 
 
 
