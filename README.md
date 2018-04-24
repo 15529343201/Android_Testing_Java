@@ -349,8 +349,15 @@ http://recorder.robotium.com/javadoc/<br>
 下载慕课网app(https://www.imooc.com/mobile/app),mukewang.apk,解压删除其中的META-INF,使用命令行重签名<br>
 ![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter5/Image/23.PNG)<br>
 创建一个测试的工程imoocAPK<br>
+获取签名信息:`aapt d badging c:\Dan\code\mukewang1.apk`<br>
+### Robotium录制回放工具
+- Robotium Recorder:http://recorder.robotium.com/updates
 
-
+![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter5/Image/24.PNG)<br>
+![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter5/Image/25.PNG)<br>
+![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter5/Image/26.PNG)<br>
+会生成mukewang_debug.apk<br>
+点击录制,最终会生成工程MCApplicationTest<br>
 
 
 
