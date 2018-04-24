@@ -519,8 +519,25 @@ public void testCollection() throws UiObjectNotFoundException{
 	System.out.println("operator Count:-------"+cnt2);		
 }
 ```
-
-
+- UiScrollable
+处理可滚动控件的滚动相关操作<br>
+```Java
+public void testScrollable() throws UiObjectNotFoundException{
+	UiScrollable scroll = new UiScrollable(new UiSelector().className("android.widget.ListView"));
+	scroll.scrollBackward(); //向后滚动
+	scroll.scrollForward();//向前滚动
+	// scroll.scrollForward(10);
+	scroll.scrollToBeginning(maxSwips);//多少次到滚动到起始位置
+	scroll.scrollToEnd(5);
+	scroll.flingForward();//快速向前滚动
+	scroll.flingToEnd(30);
+	scroll.scrollTextIntoView("Basing");//滚动到Basing控件
+	scroll.scrollIntoView(new UiObject(new UiSelector().text("Basing")));//同样滚动到Basing控件
+	scroll.scrollIntoView(new UiSelector().text("Basing"));
+	UiObject basing=scroll.getChildByText(new UiSelecter().className("android.widget.TextView"),"Basing",true);
+	basing.click();
+}
+```
 
 
 
