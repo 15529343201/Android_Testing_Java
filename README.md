@@ -461,7 +461,13 @@ public static void main(String[] args) {
 4.`package`<br>
 5.`index`<br>
 6.`其他属性`<br>
-
+```Java
+public void testSelect() throws UiObjectNotFoundException{
+	UiSelector s=new UiSelector().className("android.view.ViewGroup").index(1).childSelector(new UiSelector().index(3));
+	UiObject browserBtn = new UiObject(s);
+	browserBtn.click();
+}
+```
 
 
 
