@@ -397,6 +397,7 @@ public class TestUi extends UiAutomatorTestCase {
 ### UiAutomator脚本调试工具
 - UiAutomatorHelper:https://github.com/fan2597/UiAutomatorHelper
 
+下载UiAutomatorDebug源码,导入到eclipse,拷贝UiAutomatorHelper.java到TestUi工程下.<br>
 
 
 
