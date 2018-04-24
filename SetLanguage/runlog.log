@@ -1,0 +1,609 @@
+Added file C:\Dan\workspace\SetLanguage\build.xml
+Buildfile: C:\Dan\workspace\SetLanguage\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at C:\Dan\adt-bundle\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 24.0.0
+     [echo] Resolving Build Target for SetLanguage...
+[getuitarget] Project Target:   Android 6.0
+[getuitarget] API level:        23
+     [echo] ----------
+     [echo] Creating output directories if needed...
+    [mkdir] Created dir: C:\Dan\workspace\SetLanguage\bin\classes
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 2 source files to C:\Dan\workspace\SetLanguage\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Dan\workspace\SetLanguage\bin\classes
+      [dex] Converting compiled files and external libraries into C:\Dan\workspace\SetLanguage\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Dan\workspace\SetLanguage\bin\SetLanguage.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+[100%] /data/local/tmp/SetLanguage.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.imooc.lang.SetLanguage:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testSetChinese
+
+INSTRUMENTATION_STATUS: class=com.imooc.lang.SetLanguage
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+中文语言设置成功！
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testSetChinese
+
+INSTRUMENTATION_STATUS: class=com.imooc.lang.SetLanguage
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 33.475
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Dan\workspace\SetLanguage\build.xml
+Buildfile: C:\Dan\workspace\SetLanguage\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at C:\Dan\adt-bundle\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 24.0.0
+     [echo] Resolving Build Target for SetLanguage...
+[getuitarget] Project Target:   Android 6.0
+[getuitarget] API level:        23
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to C:\Dan\workspace\SetLanguage\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Dan\workspace\SetLanguage\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Dan\workspace\SetLanguage\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Dan\workspace\SetLanguage\bin\SetLanguage.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+[100%] /data/local/tmp/SetLanguage.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.imooc.lang.SetLanguage:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testSetLanguage
+
+INSTRUMENTATION_STATUS: class=com.imooc.lang.SetLanguage
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testSetLanguage:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[DESCRIPTION=应用]
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:436)
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:414)
+
+	at com.imooc.lang.SetLanguage.SetChinese(SetLanguage.java:21)
+
+	at com.imooc.lang.SetLanguage.testSetLanguage(SetLanguage.java:15)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:251)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testSetLanguage
+
+INSTRUMENTATION_STATUS: class=com.imooc.lang.SetLanguage
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[DESCRIPTION=应用]
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:436)
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:414)
+
+	at com.imooc.lang.SetLanguage.SetChinese(SetLanguage.java:21)
+
+	at com.imooc.lang.SetLanguage.testSetLanguage(SetLanguage.java:15)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:251)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 11.759
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Dan\workspace\SetLanguage\build.xml
+Buildfile: C:\Dan\workspace\SetLanguage\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at C:\Dan\adt-bundle\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 24.0.0
+     [echo] Resolving Build Target for SetLanguage...
+[getuitarget] Project Target:   Android 6.0
+[getuitarget] API level:        23
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to C:\Dan\workspace\SetLanguage\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Dan\workspace\SetLanguage\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Dan\workspace\SetLanguage\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Dan\workspace\SetLanguage\bin\SetLanguage.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+[100%] /data/local/tmp/SetLanguage.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.imooc.lang.SetLanguage:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testSetLanguage
+
+INSTRUMENTATION_STATUS: class=com.imooc.lang.SetLanguage
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+中文语言设置成功！
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testSetLanguage:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[DESCRIPTION=应用]
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:436)
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:414)
+
+	at com.imooc.lang.SetLanguage.SetEnglish(SetLanguage.java:21)
+
+	at com.imooc.lang.SetLanguage.testSetLanguage(SetLanguage.java:16)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:251)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testSetLanguage
+
+INSTRUMENTATION_STATUS: class=com.imooc.lang.SetLanguage
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[DESCRIPTION=应用]
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:436)
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:414)
+
+	at com.imooc.lang.SetLanguage.SetEnglish(SetLanguage.java:21)
+
+	at com.imooc.lang.SetLanguage.testSetLanguage(SetLanguage.java:16)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:251)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 46.799
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Dan\workspace\SetLanguage\build.xml
+Buildfile: C:\Dan\workspace\SetLanguage\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at C:\Dan\adt-bundle\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 24.0.0
+     [echo] Resolving Build Target for SetLanguage...
+[getuitarget] Project Target:   Android 6.0
+[getuitarget] API level:        23
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to C:\Dan\workspace\SetLanguage\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Dan\workspace\SetLanguage\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Dan\workspace\SetLanguage\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Dan\workspace\SetLanguage\bin\SetLanguage.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+[100%] /data/local/tmp/SetLanguage.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.imooc.lang.SetLanguage:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testSetLanguage
+
+INSTRUMENTATION_STATUS: class=com.imooc.lang.SetLanguage
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testSetLanguage:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[DESCRIPTION=Apps]
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:436)
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:414)
+
+	at com.imooc.lang.SetLanguage.SetChinese(SetLanguage.java:51)
+
+	at com.imooc.lang.SetLanguage.testSetLanguage(SetLanguage.java:16)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:251)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testSetLanguage
+
+INSTRUMENTATION_STATUS: class=com.imooc.lang.SetLanguage
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[DESCRIPTION=Apps]
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:436)
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:414)
+
+	at com.imooc.lang.SetLanguage.SetChinese(SetLanguage.java:51)
+
+	at com.imooc.lang.SetLanguage.testSetLanguage(SetLanguage.java:16)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:251)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 11.56
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Dan\workspace\SetLanguage\build.xml
+Buildfile: C:\Dan\workspace\SetLanguage\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at C:\Dan\adt-bundle\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 24.0.0
+     [echo] Resolving Build Target for SetLanguage...
+[getuitarget] Project Target:   Android 6.0
+[getuitarget] API level:        23
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to C:\Dan\workspace\SetLanguage\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Dan\workspace\SetLanguage\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Dan\workspace\SetLanguage\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Dan\workspace\SetLanguage\bin\SetLanguage.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+[100%] /data/local/tmp/SetLanguage.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.imooc.lang.SetLanguage:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testSetLanguage
+
+INSTRUMENTATION_STATUS: class=com.imooc.lang.SetLanguage
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+英语语言设置成功！
+
+中文语言设置成功！
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testSetLanguage
+
+INSTRUMENTATION_STATUS: class=com.imooc.lang.SetLanguage
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 54.975
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+

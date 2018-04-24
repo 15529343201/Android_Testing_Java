@@ -538,6 +538,14 @@ public void testScrollable() throws UiObjectNotFoundException{
 	basing.click();
 }
 ```
+### UiAutomator实例
+- 进入App列表页
+- 找到设置应用并进入
+- 进入语言设置
+- 更新当前语言
+
+创建工程SetLanguage<br>
+
 
 
 
