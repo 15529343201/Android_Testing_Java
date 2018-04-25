@@ -636,6 +636,13 @@ public class AppTest {
 
 }
 ```
+### 界面元素定位
+- `findElementBy(By)`
+- `findElementsByClassName`
+- `findElementById`
+- `findElementByAccessibilityId`
+- `findElementByXPath`
+- `findElementByAndroidUIAutomator`
 
 
 
