@@ -644,6 +644,7 @@ public class AppTest {
 - `findElementByXPath`
 - `findElementByAndroidUIAutomator`
 
+创建Junit用例,`AppTest1.java`<br>
 
 
 
