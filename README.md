@@ -545,6 +545,13 @@ public void testScrollable() throws UiObjectNotFoundException{
 - 更新当前语言
 
 创建工程SetLanguage<br>
+# chapter7
+### Appium简介
+- 开源App自动化测试工具,支持IOS和Android跨平台测试 http://appium.io
+- Android4.3+基于UiAutomator
+- Android2.3+基于Instrumentation(Selendroid)
+- C/S架构,基于Selenium WebDriver协议同一接口
+- 脚本多语言支持 Java、Python、ruby、php、JavaScript、C#
 
 
 
