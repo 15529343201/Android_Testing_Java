@@ -655,8 +655,9 @@ public class AppTest {
 
 创建Junit测试用例,`AppTest2.java`<br>
 ![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter7/Image/33.PNG)<br>
-
-
+### Appium实例
+进入慕课主页-->进入手记-->选择最新手记-->查看手记-->验证-->返回主页<br>
+创建Junit测试用例,HandNoteTest.java<br>
 
 
 
