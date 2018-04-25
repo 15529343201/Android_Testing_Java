@@ -645,6 +645,9 @@ public class AppTest {
 - `findElementByAndroidUIAutomator`
 
 创建Junit用例,`AppTest1.java`<br>
+### 界面等待方法
+- 显式等待 `Thread.sleep(ms)`
+- 隐式等待 `driver.manage().timeouts().implicitlyWait(Second,TimeUnit.SECONDS)`;
 
 
 
