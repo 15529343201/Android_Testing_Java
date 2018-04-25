@@ -553,6 +553,19 @@ public void testScrollable() throws UiObjectNotFoundException{
 - C/S架构,基于Selenium WebDriver协议同一接口
 - 脚本多语言支持 Java、Python、ruby、php、JavaScript、C#
 
+### Appium安装
+- Android基本开发环境准备
+- 安装Node.js https://nodejs.org/en/
+- 安装Appium 
+
+1.npm安装 `npm install -g appium`<br>
+2.官方安装包: https://bitbucket.org/appium/appium.app/downloads/<br>
+
+
+
+
+
+
 
 
 
