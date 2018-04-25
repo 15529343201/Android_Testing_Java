@@ -569,6 +569,28 @@ public void testScrollable() throws UiObjectNotFoundException{
 
 ### 使用Appium
 创建AppiumTest工程,引入相关三个包<br>
+```Java
+public static void main(String[] args) throws MalformedURLException, InterruptedException {
+	AppiumDriver driver;
+		
+	DesiredCapabilities cap=new DesiredCapabilities();
+		
+	cap.setCapability("deviceName","192.168.117.101:5555");
+	cap.setCapability("platformVersion", "7.0");
+	cap.setCapability("appPackage", "com.android.calculator2");
+	cap.setCapability("appActivity", ".Calculator");
+	driver = new AndroidDriver<>(new URL("http://127.0.0.1:4723/wd/hub"), cap);
+}		
+```
+- 创建java项目
+- 运行Appium Server `appium [参数]` `-a -p --log --command-timeout`
+
+![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter7/Image/30.PNG)<br>
+获取命令行参数:`appium -h`<br>
+运行java项目,`run as-->java application`<br>
+
+
+
 
 
 
