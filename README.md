@@ -560,9 +560,15 @@ public void testScrollable() throws UiObjectNotFoundException{
 
 1.npm安装 `npm install -g appium`<br>
 2.官方安装包: https://bitbucket.org/appium/appium.app/downloads/<br>
+3.安装验证: `appium-doctor(npm安装)`<br>
+- Appium客户端(Java)
 
+1.`Java-client`<br>
+2.`selenium-java`<br>
+3.`selenium-server-standalone`<br>
 
-
+### 使用Appium
+创建AppiumTest工程,引入相关三个包<br>
 
 
 
