@@ -588,8 +588,13 @@ public static void main(String[] args) throws MalformedURLException, Interrupted
 ![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter7/Image/30.PNG)<br>
 获取命令行参数:`appium -h`<br>
 运行java项目,`run as-->java application`<br>
+### DesiredCapabilities介绍
+- 定义Appium运行所需的基本配置信息
+- 扩展自Webdriver的DesiredCapabilities对象
 
-
+![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter7/Image/31.PNG)<br>
+![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter7/Image/32.PNG)<br>
+appium文档:http://appium.io/docs/cn/about-appium/intro/<br>
 
 
 
