@@ -649,6 +649,13 @@ public class AppTest {
 - 显式等待 `Thread.sleep(ms)`
 - 隐式等待 `driver.manage().timeouts().implicitlyWait(Second,TimeUnit.SECONDS)`;
 
+### 混合应用测试
+- `Context`切换
+- `ChromeDriver`的使用
+
+创建Junit测试用例,`AppTest2.java`<br>
+![image](https://github.com/15529343201/Android_Testing_Java/blob/chapter7/Image/33.PNG)<br>
+
 
 
 
